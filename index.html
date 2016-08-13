@@ -214,6 +214,10 @@ function loadPage(page,result_id){
     $("#"+result_id).load(page);
 }
 
+function clearPage(result_id){
+    $("#"+result_id).html("");
+}
+
 var btn = {};
 btn.home = $("#btn-home");
 btn.projects = $("#btn-projects");

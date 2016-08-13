@@ -6,11 +6,12 @@
     <hr>
     Download: <a href="MagicWorlds-Launcher.jar">MagicWorlds-Launcher.jar</a>
     <br />
-    <a href="https://docs.google.com/document/d/1sirjmq3-T2eN6RIvOzR5HyOB6Of8_89cgXco-w6QjeM/edit?usp=sharing" target="_blank">Launcher-Documentation</a>
+    <a href="https://docs.google.com/document/d/1sirjmq3-T2eN6RIvOzR5HyOB6Of8_89cgXco-w6QjeM/edit?usp=sharing" target="_blank">Launcher-Documentation</a><br />
     <br />
+    Click <a href="#news" onclick="clearPage('magic-worlds');">here</a> to collapse this section.
     <hr>
     <br />News:<br />
-    <div id="news-data"></div>
+    <div id="news"></div>
 
 </body>
 
@@ -27,7 +28,8 @@ for (i in files){
     $.get( news_root+files[i], function( data ) {
         $("#news").append(data);
     });
-
 }
+
+window.location.hash = "#news";
 
 </script>
