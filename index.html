@@ -129,6 +129,7 @@ article{
     <div class="menu">
         <br />
         <a class="menu-item" id="btn-home" href="#">Home<div id="btn-home-decor" class="menu-item-decor"></div></a>
+        <a class="menu-item" id="btn-projects" href="#">Projects<div class="menu-item-decor"></div></a>
         <a class="menu-item" href="#">News<div class="menu-item-decor"></div></a>
         <a class="menu-item" href="#">Language<div class="menu-item-decor"></div></a>
         <a class="menu-item" href="#">Fiction<div class="menu-item-decor"></div></a>
@@ -161,6 +162,16 @@ article{
         I have begun learning Italian, and so far I find the class quite amusing. Albeit slow, it has it's moments. The teacher is quite short, like a true italian lady, and often speaks loudly, gesturing as you may expect.<br />
         <br />
         When we first began class last week I was surprised to learn that Carla, a friend from school, was in the class aswell. Besides her, Cyrus and Tony are also taking Italian. We all took french in highschool, so Italian grammar comes a little more naturally to us than the rest of the class.
+    </article>
+</div>
+
+<div id="page-projects" style="display:none;">
+    <article>
+        Magic Worlds:<br />
+        <br />
+        This project aims to create a multiplayer game which you can do quests, and collect items of value. You can trade items with other players and battle monsters to level up.<br />
+        <br />
+        Click <a href="projects/MagicWorlds/">here</a> to view the project page.
     </article>
 </div>
 
@@ -199,12 +210,15 @@ show_page("home");
 
 var btn = {};
 btn.home = $("#btn-home");
+btn.projects = $("#btn-projects");
 btn.about = $("#btn-about");
 
 btn.home.click(function(){
     show_page("home");
 });
-
+btn.projects.click(function(){
+    show_page("projects");
+});
 btn.about.click(function(){
     show_page("about");
 });
