@@ -10,10 +10,24 @@
     <br />
     <hr>
     <br />News:<br />
-    <div id="news"></div>
+    <div id="news-data"></div>
 
 </body>
 
 <script>
-$("#news").load("news/index.html");
+
+var news_root = "news/";
+
+var files = [   'news-07-04-2015.html',
+                'news-03-12-2013.html',
+                'news-02-12-2013.html',
+                'news-01-12-2013.html'];
+
+for (i in files){
+    $.get( news_root+files[i], function( data ) {
+        $("#news").append(data);
+    });
+
+}
+
 </script>
