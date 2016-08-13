@@ -171,7 +171,9 @@ article{
         <br />
         This project aims to create a multiplayer game which you can do quests, and collect items of value. You can trade items with other players and battle monsters to level up.<br />
         <br />
-        Click <a href="projects/MagicWorlds/">here</a> to view the project page.
+        Click <a href="#" onclick="loadPage('projects/MagicWorlds/','magic-worlds')">here</a> to view the project page.
+        <div id="magic-worlds">
+        </div>
     </article>
 </div>
 
@@ -207,6 +209,10 @@ function show_page(id){
     currently_showing = id;
 }
 show_page("home");
+
+function loadPage(page,result_id){
+    $("#"+result_id).load(page);
+}
 
 var btn = {};
 btn.home = $("#btn-home");
