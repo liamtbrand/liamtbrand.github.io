@@ -1,0 +1,28 @@
+<html>
+
+<div id="mycontent"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<script>
+
+$.ajax({
+    type: 'GET',
+    url: "http://www.google.com",
+    data: {},
+    dataType: "html",
+    async: true,
+    success: function (data) {
+        console.log(data);
+        $("#mycontent").html(data);
+    },
+    error: function( jqXHR, textStatus, errorThrown ){
+        console.log(jqXHR);
+        console.log(textStatus);
+        console.log(errorThrown);
+    }
+});
+
+</script>
+
+</html>

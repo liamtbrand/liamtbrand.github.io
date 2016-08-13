@@ -1,1 +1,218 @@
-<p>It Works!</p>
+<!doctype html>
+<meta charset="UTF-8">
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+
+<style>
+
+body{
+    font-family: 'Inconsolata', sans-serif;
+    background-color:#EEE;
+    padding:0px;
+    margin:0px;
+}
+
+/*
+.overlay{
+    background-image:url("New-Paris-Eiffel-Tower-Full-HD-Wallpaper-For-Desktop-2014-Download.jpg");
+    background-size: cover;
+    position:fixed;
+    width:100%;
+    height:100%;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+*/
+
+/*
+.overlay-dim{
+    opacity:0.4;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    background-color:#000;
+}*/
+
+.title{
+    font-size: 50px;
+    text-align:center;
+    width:100%;
+    color:#FFF;
+}
+/*
+article{
+    width:760px;
+    height:auto;
+    background-color:#FFF;
+}*/
+
+.header{
+    width:100%;
+    height:400px;
+    background-image:url("New-Paris-Eiffel-Tower-Full-HD-Wallpaper-For-Desktop-2014-Download.jpg");
+    background-size: cover;
+}
+
+.menu{
+    text-align:center;
+    width:100%;
+    height:auto;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+article{
+    /*background-color:rgba(0, 0, 0, 0.2);*/
+    width:740px;
+    height:auto;
+    color:#000;
+    background-color:#fff;
+    border: 1px solid #ddd;
+    text-align:left;
+    white-space:normal;
+    padding:10px;
+}
+
+.button{
+    display:inline-block;
+    border-radius:25px;
+    border: 2px solid #00cc99;
+    width:auto;
+    padding:10px;
+    color:#FFF;
+}
+
+.button:hover{
+}
+
+.pull-right{
+    text-align:right;
+}
+
+.menu-item{
+    display:inline-block;
+    padding:0px;
+    color:#FFF;
+    /*background-color:#eee;*/
+    font-size:24px;
+    font-style:normal;
+    text-decoration: none;
+}
+
+.menu-item:hover .menu-item-decor{
+    opacity:1;
+    background-color:#00cc99;
+}
+
+.menu-item .menu-item-decor{
+    display:block;
+    position:relative;
+    width:100%;
+    height:3px;
+    top:0px;
+    left:0px;
+    background-color:#FFF;
+    opacity:0.2;
+}
+
+</style>
+
+<html>
+
+<!--
+<div class="overlay">
+    <div class="overlay-dim"></div>
+</div>-->
+
+<div class="header">
+    <div class="menu">
+        <br />
+        <a class="menu-item" id="btn-home" href="#">Home<div id="btn-home-decor" class="menu-item-decor"></div></a>
+        <a class="menu-item" href="#">News<div class="menu-item-decor"></div></a>
+        <a class="menu-item" href="#">Language<div class="menu-item-decor"></div></a>
+        <a class="menu-item" href="#">Fiction<div class="menu-item-decor"></div></a>
+        <a class="menu-item" id="btn-about" href="#">About<div id="btn-about-decor" class="menu-item-decor"></div></a>
+    </div>
+    <span style="display:block;height:50px;width:10px;"></span>
+    <div class="title">Bonjour! Ciao! Hallo!</div>
+    <br />
+    <br />
+    <center><span style="color:#fff;">Tales be lurkin'</span></center>
+</div>
+
+<center>
+
+<div id="page-home" style="display:none;">
+    <!--<div class="button">Vous ne pouvez pas me cliquer</div>-->
+    <article>
+    Bienvenu sur mon site web!<br />
+    <br />
+    Je suis un étudiant néo-zélandais, et j'etude ingénierie à l'université d'Auckland.<br />
+    J'ai la passion pour les langues, et j'aimerais écrire plus, donc j'ai créé ce site.<br />
+    <br />
+    Pendant les semaines suivantes, je vais commencer à écrire des trucs en plusieurs langues, et les mettre ici pour que le monde peut les voir!<br />
+    <br />
+    J'espère que mes amis m'aideront, en écrire des choses aussi. Ce serait cool de partager nos vies avec vous tous.
+    </article>
+    <br />
+    <svg height="16" width="16">
+        <circle cx="8" cy="8" r="8" stroke="black" stroke-width="0" fill="#00cc99" />
+    </svg>
+    <br />
+    <br />
+    <article>
+        Another Article! This time in english.<br />
+        <br />
+        I have begun learning Italian, and so far I find the class quite amusing. Albeit slow, it has it's moments. The teacher is quite short, like a true italian lady, and often speaks loudly, gesturing as you may expect.<br />
+        <br />
+        When we first began class last week I was surprised to learn that Carla, a friend from school, was in the class aswell. Besides her, Cyrus and Tony are also taking Italian. We all took french in highschool, so Italian grammar comes a little more naturally to us than the rest of the class.
+    </article>
+</div>
+
+<div id="page-about" style="display:none;">
+    <span style="display:block;height:50px;width:10px;"></span>
+    <article>
+    Bienvenu sur mon site web!<br />
+    <br />
+    Je suis un étudiant néo-zélandais, et j'etude ingénierie à l'université d'Auckland.<br />
+    J'ai la passion pour les langues, et j'aimerais écrire plus, donc j'ai créé ce site.<br />
+    <br />
+    Pendant les semaines suivantes, je vais commencer à écrire des trucs en plusieurs langues, et les mettre ici pour que le monde peut les voir!<br />
+    <br />
+    J'espère que mes amis m'aideront, en écrire des choses aussi. Ce serait cool de partager nos vies avec vous tous.
+    </article>
+</div>
+
+</center>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<script>
+
+var currently_showing = "";
+function show_page(id){
+    if(currently_showing != ""){
+        $("#page-"+currently_showing).css("display","none");
+        $("#btn-"+currently_showing+"-decor").css("background-color","").css("opacity","");
+    }
+    $("#page-"+id).css("display","block");
+    $("#btn-"+id+"-decor").css("background-color","#00cc99").css("opacity","1");
+    currently_showing = id;
+}
+show_page("home");
+
+var btn = {};
+btn.home = $("#btn-home");
+btn.about = $("#btn-about");
+
+btn.home.click(function(){
+    show_page("home");
+});
+
+btn.about.click(function(){
+    show_page("about");
+});
+
+</script>
