@@ -48,6 +48,17 @@ article{
     background-color:#FFF;
 }*/
 
+.date{
+    display:block;
+    position:relative;
+    right:0px;
+    top:-28px;
+    color:#AAAAAA;
+    text-align:right;
+    font-size:14px;
+    height:0px;
+}
+
 .header{
     width:100%;
     height:400px;
@@ -129,7 +140,7 @@ article{
     <div class="menu">
         <br />
         <a class="menu-item" id="btn-home" href="#">Home<div id="btn-home-decor" class="menu-item-decor"></div></a>
-        <a class="menu-item" id="btn-projects" href="#">Projects<div class="menu-item-decor"></div></a>
+        <a class="menu-item" id="btn-projects" href="#">Projects<div id="btn-projects-decor" class="menu-item-decor"></div></a>
         <a class="menu-item" href="#">News<div class="menu-item-decor"></div></a>
         <a class="menu-item" href="#">Language<div class="menu-item-decor"></div></a>
         <a class="menu-item" href="#">Fiction<div class="menu-item-decor"></div></a>
@@ -143,53 +154,8 @@ article{
 </div>
 
 <center>
-    <span style="display:block;height:50px;width:10px;"></span>
-
-<div id="page-home" style="display:none;">
-    <!--<div class="button">Vous ne pouvez pas me cliquer</div>-->
-    <article>
-        Welcome!
-    </article>
-    <br />
-    <svg height="16" width="16">
-        <circle cx="8" cy="8" r="8" stroke="black" stroke-width="0" fill="#00cc99" />
-    </svg>
-    <br />
-    <br />
-    <article>
-        Another Article! This time in english.<br />
-        <br />
-        I have begun learning Italian, and so far I find the class quite amusing. Albeit slow, it has it's moments. The teacher is quite short, like a true italian lady, and often speaks loudly, gesturing as you may expect.<br />
-        <br />
-        When we first began class last week I was surprised to learn that Carla, a friend from school, was in the class aswell. Besides her, Cyrus and Tony are also taking Italian. We all took french in highschool, so Italian grammar comes a little more naturally to us than the rest of the class.
-    </article>
-</div>
-
-<div id="page-projects" style="display:none;">
-    <article>
-        <b>Magic Worlds</b><br />
-        <br />
-        This project aims to create a multiplayer game which you can do quests, and collect items of value. You can trade items with other players and battle monsters to level up.<br />
-        <br />
-        Click <a href="#" onclick="loadPage('projects/MagicWorlds/','magic-worlds')">here</a> to view the project page.<br />
-        <div id="magic-worlds">
-        </div>
-    </article>
-</div>
-
-<div id="page-about" style="display:none;">
-    <article>
-    Bienvenu sur mon site web!<br />
-    <br />
-    Je suis un étudiant néo-zélandais, et j'etude ingénierie à l'université d'Auckland.<br />
-    J'ai la passion pour les langues, et j'aimerais écrire plus, donc j'ai créé ce site.<br />
-    <br />
-    Pendant les semaines suivantes, je vais commencer à écrire des trucs en plusieurs langues, et les mettre ici pour que le monde peut les voir!<br />
-    <br />
-    J'espère que mes amis m'aideront, en écrire des choses aussi. Ce serait cool de partager nos vies avec vous tous.
-    </article>
-</div>
-
+<span style="display:block;height:50px;width:10px;"></span>
+<div id="page-content"></div>
 <span style="display:block;min-width:10px;min-height:250px;opacity:1;"></span>
 </center>
 </html>
@@ -201,14 +167,22 @@ article{
 var currently_showing = "";
 function show_page(id){
     if(currently_showing != ""){
-        $("#page-"+currently_showing).css("display","none");
-        $("#btn-"+currently_showing+"-decor").css("background-color","").css("opacity","");
+         //$("#page-"+currently_showing).css("display","none");
+         $("#btn-"+currently_showing+"-decor").css("background-color","").css("opacity","");
     }
-    $("#page-"+id).css("display","block");
+    $("#page-content").load(id+".html",function(){
+        insertSpacers();
+    });
+    //$("#page-"+id).css("display","block");
     $("#btn-"+id+"-decor").css("background-color","#00cc99").css("opacity","1");
     currently_showing = id;
 }
 show_page("home");
+
+function insertSpacers(){
+    var html = "<br /><svg height=\"16\" width=\"16\"><circle cx=\"8\" cy=\"8\" r=\"8\" stroke=\"black\" stroke-width=\"0\" fill=\"#00cc99\" /></svg><br /><br />";
+    $(".article-spacer").html(html);
+}
 
 function loadPage(page,result_id){
     $("#"+result_id).load(page);
