@@ -1,0 +1,4 @@
+MagicWorlds.jar,
+Resources.zip,
+MagicWorlds-Server.jar,
+data.zip,
