@@ -72,8 +72,42 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Theme example</h1>
-        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
+        <h1>Cookie Clicker</h1>
+        <p>Click the cookie to sell cookies!</p>
+
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img data-src="holder.js/200x200" onclick="clickCookie()" src="images/cookie.jpg" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+            </div>
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Finances</h3>
+              </div>
+              <div class="panel-body">
+                <div id="money"></div>
+              </div>
+            </div>
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Items</h3>
+              </div>
+              <div class="panel-body">
+                <div id="items_sold"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img data-src="holder.js/200x200" onclick="clickBobRoss()" style="cursor:url('images/paint_brush.jpg'),auto;" src="images/bob_ross.jpg" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+            </div>
+        </div>
+
       </div>
 
 
@@ -641,4 +675,6 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
+
+  <script src="clicker.js"></script>
 </html>
