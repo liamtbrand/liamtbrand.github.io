@@ -1,25 +1,30 @@
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<!DOCTYPE html>
+<html>
+<!--<script
+   src="https://code.jquery.com/jquery-3.2.1.min.js"
+   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+   crossorigin="anonymous">
+</script>-->
+<link href="fonts/open.sans.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="lib/w3.js"></script>
 
-<header>
-   <nav>
-      <ul>
-         <li><a href="now.html" class="active">Now</a></li>
-         <li> | </li>
-         <li>Adventure</li>
-         <li> | </li>
-         <li>Literature</li>
-         <li> | </li>
-         <li>Work</li>
-         <li> | </li>
-         <li>Study</li>
-      </ul>
-   </nav>
-</header>
+<title>Liam T. Brand</title>
+
+<header w3-include-html="header.html"></header>
 
 <body>
-
+   
 </body>
 
-<footer>
-</footer>
+<footer w3-include-html="footer.html"></footer>
+
+<script src="menu.js"></script>
+<script>
+   (function(){
+      w3.includeHTML(function() {
+         initMenu();
+      });
+   })();
+</script>
+</html>

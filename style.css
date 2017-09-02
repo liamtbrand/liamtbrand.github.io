@@ -1,28 +1,62 @@
 
 header {
+   position: fixed;
    font-family: 'Open Sans', sans-serif;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+}
+
+.container {
+   min-height:100%;
+   position:relative;
+   background-color: #bbb;
+}
+
+body, html {
+   margin:0;
+   padding:0;
 }
 
 body {
+   margin-top: 3em;
    font-family: 'Open Sans', sans-serif;
 }
 
-nav {
-   text-align: right;
+footer {
+   width: 100%;
+   background-color: #eee;
+   height: 6em;
+   bottom: 0;
 }
 
-nav > ul {
+nav > .left {
+   position: absolute;
+   display: block;
+   left: 0px;
+   text-align: left;
+   padding: 1em;
+}
+
+nav > .right {
+   position: absolute;
+   display: inline-block;
+   right: 0px;
+   text-align: right;
+   padding: 1em;
+}
+
+nav > .right > ul {
    list-style-type: none;
    margin: 0;
    padding: 0;
 }
 
-nav > ul > li {
+nav > .right > ul > li {
    display: inline;
-   width: 60px;
 }
 
-nav > ul > li > .active {
+nav > .right > ul > li > .active {
    font-weight: bold;
 }
 
@@ -33,4 +67,28 @@ a {
 
 a:hover {
    
+}
+
+table {
+   margin-left: auto;
+   margin-right: auto;
+   table-layout: fixed;
+   width:100%;
+}
+
+table > tbody > .book > td {
+   width: 50%;
+}
+
+table > tbody > .book > .title {
+   text-align: right;
+   font-weight: bold;
+}
+
+table > tbody > .book > .title > .highlighted {
+   color: #fff;
+   background-color: #000;
+   text-align: right;
+   font-weight: normal;
+   display: inline;
 }
