@@ -11,7 +11,8 @@ header {
    width: 100%;
    height: auto;
    display: block;
-   height: 3.5em;
+   height: 3.25em;
+   
 }
 
 .caption {
@@ -47,7 +48,7 @@ body > .wrapper {
 }
 
 body > .wrapper > .header-spacer {
-   height: 3.5em;
+   height: 3.25em;
    width: 100%;
 }
 
@@ -162,4 +163,18 @@ table {
    display: inline-block;
    width: 800px;
    text-align: left;
+}
+
+.container-separator {
+   display: inline-block;
+   border-bottom: 1px solid #eee;
+   width: 800px;
+   height: 1px;
+}
+
+.captioned-image {
+   display: inline-block;
+   width: 100%;
+   background-size:cover;
+   padding: auto;
 }
