@@ -1,0 +1,37 @@
+table > tbody > .project > td {
+   width: 50%;
+}
+
+table > tbody > .project > .title {
+   text-align: right;
+   font-weight: normal;
+}
+
+table > tbody > .project > .title > .highlighted {
+   color: #fff;
+   background-color: #000;
+   text-align: right;
+   font-weight: normal;
+   display: inline;
+}
+
+table > tbody > .project > .info {
+   text-align: left;
+}
+
+table > tbody > .project > .info > .highlighted {
+   color: #fff;
+   background-color: #000;
+   text-align: right;
+   font-weight: normal;
+   display: inline;
+}
+
+table > tbody > .project > .title > a:hover {
+   color: #fff;
+   background-color: #000;
+   text-align: right;
+   font-weight: normal;
+   display: inline;
+   text-decoration: none;
+}

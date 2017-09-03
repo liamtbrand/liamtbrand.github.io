@@ -1,0 +1,23 @@
+table > tbody > .book > td {
+   width: 50%;
+}
+
+table > tbody > .book > .title {
+   text-align: right;
+}
+
+table > tbody > .book > .bold {
+   font-weight: bold;
+}
+
+table > tbody > .book > .title > .highlighted {
+   color: #fff;
+   background-color: #000;
+   text-align: right;
+   font-weight: normal;
+   display: inline;
+}
+
+table > tbody > .book > .author {
+   text-align: left;
+}

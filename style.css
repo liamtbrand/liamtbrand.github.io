@@ -2,32 +2,78 @@
 header {
    position: fixed;
    font-family: 'Open Sans', sans-serif;
+
+   font-family: 'Fredericka the Great', cursive;
+   font-family: 'Love Ya Like A Sister', cursive;
+   font-family: 'Special Elite', cursive;
+   
    left: 0px;
    right: 0px;
    top: 0px;
+   background-color: #fff;
+   width: 100%;
+   height: auto;
+   display: block;
+   height: 3.5em;
 }
 
-.container {
-   min-height:100%;
-   position:relative;
-   background-color: #bbb;
+.caption {
+   font-family: 'Love Ya Like A Sister', cursive;
+   font-family: 'Fredericka the Great', cursive;
+   font-weight: normal;
+   font-size: 48px;
 }
 
 body, html {
    margin:0;
    padding:0;
+   height: 100%;
+}
+
+body > .wrapper {
+   min-height:100%;
+   background-color: #fff;
+   margin-bottom: -6.5em; 
+}
+
+/*
+body > .wrapper:after {
+   content: "";
+   display: block;
+}*/
+
+body > .wrapper > .header-spacer {
+   height: 3.5em;
+   width: 100%;
+}
+
+body > .wrapper > .content {
+   overflow: auto;
 }
 
 body {
-   margin-top: 3em;
    font-family: 'Open Sans', sans-serif;
 }
 
 footer {
-   width: 100%;
    background-color: #eee;
-   height: 6em;
-   bottom: 0;
+   bottom: 0px;
+   position: relative;
+   text-align: center;
+   width: 100%;
+}
+
+footer > .wrapper {
+   padding: 2.5em;
+}
+
+footer > .wrapper > .item {
+   color: #999;
+   display: inline-block;
+}
+
+footer > .wrapper > .item > a {
+   color: inherit;
 }
 
 nav > .left {
@@ -60,13 +106,17 @@ nav > .right > ul > li > .active {
    font-weight: bold;
 }
 
+nav > .right > ul > li > a:hover {
+   text-decoration: none;
+}
+
 a {
    color: #000;
    text-decoration: none;
 }
 
 a:hover {
-   
+   text-decoration: underline;
 }
 
 table {
@@ -76,19 +126,29 @@ table {
    width:100%;
 }
 
-table > tbody > .book > td {
-   width: 50%;
+.content {
+   text-align: center;
 }
 
-table > tbody > .book > .title {
-   text-align: right;
-   font-weight: bold;
+.content > .title,
+.content > * > .title {
+   font-family: 'Amatic SC', cursive;
+   font-family: 'Special Elite', cursive;
+
+   text-align: center;
+   width: 100%;
+   font-size: 32px;
 }
 
-table > tbody > .book > .title > .highlighted {
-   color: #fff;
-   background-color: #000;
-   text-align: right;
-   font-weight: normal;
-   display: inline;
+.content > .spacer.em1 {
+   height: 1em;
+}
+.content > .spacer.em2 {
+   height: 2em;
+}
+
+.container {
+   display: inline-block;
+   width: 800px;
+   text-align: left;
 }

@@ -1,29 +1,76 @@
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
-
-<title>Liam T. Brand</title>
-
-<header>
-   <nav>
-      <div class="left">
-         
-      </div>
-      <div class="right">
-         <ul>
-            <li><a href="now.html">Now</a></li>
-            <li> | </li>
-            <li>Adventure</li>
-            <li> | </li>
-            <li>Literature</li>
-            <li> | </li>
-            <li><a href="projects.html" class="active">Projects</a></li>
-         </ul>
-      </div>
-   </nav>
-</header>
+<!DOCTYPE html>
+<html>
+<script src="lib/w3.js"></script>
+<div w3-include-html="head.html"></div>
+<link rel="stylesheet" type="text/css" href="projects.css">
 
 <body>
+   <header w3-include-html="header.html"></header>
+   <div class="wrapper">
+      <div class="header-spacer"></div>
+      <div class="content">
+
+         <div class="title">Script Wars</div>
+         <div class="container">
+            My friend <a href="https://github.com/Brownshome" target="_blank">James Brown</a> and I have been working on this for the past few months.
+            With Script Wars you can write your own bot scripts, and have them do battle with other people's.
+            <br>
+            Visit the Website: <a href="http://script-wars.com/" target="_blank">http://script-wars.com/</a>.<br>
+         </div>
+
+         <div class="spacer em2"></div>
+
+         <div class="title">2017</div>
+
+         <table>
+            <tbody>
+               <!-- header row -->
+               <tr class="project">
+                  <th class="title">Project Name&nbsp;</th>
+                  <th class="info"><div class="highlighted">&nbsp;Project Info&nbsp;</div></th>
+               </tr>
+
+               <tr class="project">
+                  <td class="title"><a href="http://script-wars.com/" target="_blank">&nbsp;Script Wars&nbsp;</a></td>
+                  <td class="info">With <a href="https://github.com/Brownshome" target="_blank">James Brown</a>, and <a href="https://github.com/Ravid12" target="_blank">Ravid Aharon</a>.</td>
+               </tr>
+               
+               <tr class="project">
+                  <td class="title"><a href="https://aquarium-app.tech/" target="_blank">&nbsp;Aquarium&nbsp;</a></td>
+                  <td class="info">Startup formed from <a href="https://summeroftech.co.nz" target="_blank">Summer of Tech</a>'s Hackfest.</td>
+               </tr>
+
+               <tr class="project">
+                  <td class="title"><a href="https://liamtbrand.github.io/NotesApp/" target="_blank">&nbsp;NotesApp&nbsp;</a></td>
+                  <td class="info">A simple note taking app.</td>
+               </tr>
+            </tbody>
+         </table>
+
+         <div class="spacer em2"></div>
+
+         <div class="title">2016</div>
+
+         <table>
+            <tbody>
+               <tr class="project">
+                  <td class="title"><a href="https://github.com/liamtbrand/EasyDocs" target="_blank">&nbsp;EasyDocs&nbsp;</a></td>
+                  <td class="info">Simple markdown processor.</td>
+               </tr>
+            </tbody>
+         </table>
+
+      </div>
+   </div>
+   <footer w3-include-html="footer.html"></footer>
 </body>
 
-<footer>
-</footer>
+<script src="menu.js"></script>
+<script>
+   (function(){
+      w3.includeHTML(function() {
+         initMenu();
+      });
+   })();
+</script>
+</html>

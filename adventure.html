@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<script src="lib/w3.js"></script>
+<div w3-include-html="head.html"></div>
+<link rel="stylesheet" type="text/css" href="adventure.css">
+
+<body>
+   <header w3-include-html="header.html"></header>
+   <div class="wrapper">
+      <div class="header-spacer"></div>
+      <div class="content">
+         
+         <div class="title" style="margin-top:250px;">I'll go somewhere I promise.</div>
+         
+        <!--
+         <div class="spacer em1"></div>
+         <span width="100%;"><center>
+         <div class="w3-content w3-display-container" style="max-width:100%;display:block;height:400px;overflow:hidden;">
+           
+                <div class="w3-display-container mySlides w3-animate-opacity" style="display: block;height:400px;">
+                    <div class="slide-image" style="background-image:URL('https://images5.alphacoders.com/414/414939.jpg')"></div>
+                   
+                    <div class="w3-display-middle w3-text-white w3-container w3-padding-32 w3-hide-small">
+                     <span class="w3-padding-large caption">Paris</span>
+                   </div>
+                 </div>
+               <div class="w3-button noselection w3-display-left" onclick="plusDivs(-1)">&#10094;</div>
+               <div class="w3-button noselection w3-display-right" onclick="plusDivs(+1)">&#10095;</div>
+         </div>
+      </center>
+    -->
+   </span>
+
+         <script>
+            var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+            </script>
+
+
+      </div>
+   </div>
+   <footer w3-include-html="footer.html"></footer>
+</body>
+
+<script src="menu.js"></script>
+<script>
+   (function(){
+      w3.includeHTML(function() {
+         initMenu();
+      });
+   })();
+</script>
+</html>
