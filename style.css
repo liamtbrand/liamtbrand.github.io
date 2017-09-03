@@ -126,6 +126,10 @@ table {
    width:100%;
 }
 
+.white-text {
+   color: #fff;
+}
+
 .content {
    text-align: center;
 }
