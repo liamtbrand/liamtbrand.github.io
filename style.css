@@ -6,9 +6,6 @@ header {
    font-family: 'Fredericka the Great', cursive;
    font-family: 'Love Ya Like A Sister', cursive;
    font-family: 'Special Elite', cursive;
-   
-   left: 0px;
-   right: 0px;
    top: 0px;
    background-color: #fff;
    width: 100%;
@@ -28,19 +25,26 @@ body, html {
    margin:0;
    padding:0;
    height: 100%;
+   width: 100%;
+}
+
+body {
+   align-self: center;
+   text-align: center;
+}
+
+html {
+   width: 100%;
 }
 
 body > .wrapper {
    min-height:100%;
-   background-color: #fff;
+   text-align: center;
+   width: 100%;
+   max-width: 1280px;
+   margin: auto;
    margin-bottom: -6.5em; 
 }
-
-/*
-body > .wrapper:after {
-   content: "";
-   display: block;
-}*/
 
 body > .wrapper > .header-spacer {
    height: 3.5em;
@@ -61,6 +65,9 @@ footer {
    position: relative;
    text-align: center;
    width: 100%;
+
+   max-width: 1280px;
+   margin: auto;
 }
 
 footer > .wrapper {
