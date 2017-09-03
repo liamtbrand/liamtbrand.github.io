@@ -84,40 +84,6 @@ footer > .wrapper > .item > a {
    color: inherit;
 }
 
-nav > .left {
-   position: absolute;
-   display: block;
-   left: 0px;
-   text-align: left;
-   padding: 1em;
-}
-
-nav > .right {
-   position: absolute;
-   display: inline-block;
-   right: 0px;
-   text-align: right;
-   padding: 1em;
-}
-
-nav > .right > ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-}
-
-nav > .right > ul > li {
-   display: inline;
-}
-
-nav > .right > ul > li > .active {
-   font-weight: bold;
-}
-
-nav > .right > ul > li > a:hover {
-   text-decoration: none;
-}
-
 a {
    color: #000;
    text-decoration: none;
