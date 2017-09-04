@@ -105,8 +105,7 @@ table {
    text-align: center;
 }
 
-.content > .title,
-.content > * > .title {
+.content .title {
    font-family: 'Amatic SC', cursive;
    font-family: 'Special Elite', cursive;
 
