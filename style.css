@@ -106,7 +106,8 @@ table {
 }
 
 .content > .title,
-.content > * > .title {
+.content > * > .title,
+.image-caption .title {
    font-family: 'Amatic SC', cursive;
    font-family: 'Special Elite', cursive;
 
