@@ -1,2 +1,0 @@
-MagicWorlds.jar,
-Resources.zip,
