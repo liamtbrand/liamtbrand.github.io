@@ -9,10 +9,10 @@ lastfm = {
 function populateMusicBoard() {
    var url = lastfm.api.root+"?method=user.getweeklyalbumchart&user="+lastfm.user+"&api_key="+lastfm.api.key+"&format=json";
    $.getJSON(url,function(data) {
-      console.log(data);
+      //console.log(data);
       for(id in data.weeklyalbumchart.album) {
          album = data.weeklyalbumchart.album[id];
-         console.log(album);
+         //console.log(album);
          var url = lastfm.api.root+"?method=album.getinfo"+
                   "&artist="+album.artist["#text"]+
                   "&album="+album.name+
@@ -20,7 +20,7 @@ function populateMusicBoard() {
                   "&api_key="+lastfm.api.key+
                   "&format=json";
          $.getJSON(url,function(album) {
-            console.log(album);
+            //console.log(album);
             var node = document.createElement('div');
             document.getElementById("content").appendChild(node);
             node.className = "album-cover";
