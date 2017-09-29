@@ -1,0 +1,22 @@
+.album-display {
+   line-height: 0;
+   font-size: 0;
+   width: 100%;
+}
+
+.album-cover {
+   display: inline-block;
+   width: 120px;
+   height: 120px;
+   background-size: cover;
+   filter: grayscale(100%);
+   margin: 0px;
+   padding: 0px;
+   line-height: 0;
+   font-size: 0;
+}
+
+.album-cover:hover {
+   filter: none;
+   transition-duration: 0.5s;
+}
