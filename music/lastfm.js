@@ -41,7 +41,7 @@ function populateMusicBoard() {
                if(distance == 0) {
                   distance = 1;
                }
-               var percent = Math.pow(distance/20,2);
+               var percent = Math.pow(distance/30,2);
                if(percent > 1) {
                   node.style = style+"filter: grayscale("+percent+"%);";
                }
