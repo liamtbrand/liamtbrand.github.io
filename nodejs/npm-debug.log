@@ -7,7 +7,7 @@
 6 silly lifecycle nodejs@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle nodejs@1.0.0~start: nodejs@1.0.0
 8 verbose lifecycle nodejs@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle nodejs@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/liambrand/Dev/liamtbrand.github.io/nodejs/node_modules/.bin:/Users/liambrand/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Library/TeX/texbin
+9 verbose lifecycle nodejs@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/liambrand/Dev/liamtbrand.github.io/nodejs/node_modules/.bin:/Users/liambrand/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
 10 verbose lifecycle nodejs@1.0.0~start: CWD: /Users/liambrand/Dev/liamtbrand.github.io/nodejs
 11 silly lifecycle nodejs@1.0.0~start: Args: [ '-c', 'node server.js' ]
 12 silly lifecycle nodejs@1.0.0~start: Returned: code: 1  signal: null
@@ -24,7 +24,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid nodejs@1.0.0
 16 verbose cwd /Users/liambrand/Dev/liamtbrand.github.io/nodejs
-17 error Darwin 16.7.0
+17 error Darwin 17.4.0
 18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
 19 error node v6.9.5
 20 error npm  v3.10.10

@@ -12,13 +12,16 @@
 
          <!--<div id="quotes"></div>
          <div class="spacer em2"></div>-->
-         
+
+         <div id="books2018"></div>
+         <div class="spacer em2"></div>
+
          <div id="books2017"></div>
          <div class="spacer em2"></div>
 
          <div id="books2016"></div>
          <div class="spacer em2"></div>
-      
+
       </div>
    </div>
    <header w3-include-html="/header.html"></header>
@@ -36,6 +39,13 @@ var quotes = {
       {title:"<div class='highlighted'>&nbsp;Among all human discoveries,&nbsp;<br>&nbsp;the discovery of the mistake is the most important one.&nbsp;</div>",author:"Stanislaw Lec"},
       {title:"I’m not telling you it is going to be easy.<br>I’m telling you it’s going to be worth it.",author:"Art Williams"},
       {title:"Wenn nicht in diesem Leben, wann dann.",author:"Unknown"}
+   ]
+};
+
+var books2018 = {
+   title:"2018",
+   entries:[
+      {title:"Der Fledermausmann",author:"Jo Nesbø"}
    ]
 };
 
@@ -66,7 +76,7 @@ buildSection = function(section,id) {
       html += section.entries[i].title + '</td><td class="author">';
       html += section.entries[i].author + '</td></tr>';
    }
-   
+
    html += '</tbody></table>';
 
    document.getElementById(id).innerHTML = html;
@@ -82,6 +92,7 @@ buildSection = function(section,id) {
       w3.includeHTML(function() {
          initMenu();
          //buildSection(quotes,'quotes');
+         buildSection(books2018,'books2018');
          buildSection(books2017,'books2017');
          buildSection(books2016,'books2016');
       });
