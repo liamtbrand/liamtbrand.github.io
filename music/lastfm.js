@@ -33,7 +33,7 @@ function populateMusicBoard() {
                style = "background-image: url('"+imgurl+"');";
             }
             node.style = style;
-            
+
             $(document).mousemove(function(e) {
                //var distance = Math.floor(Math.sqrt(Math.pow(e.pageX - (node.offsetLeft+(node.width/2)), 2) + Math.pow(e.pageY - (node.offsetTop+(node.height/2)), 2)));
                var rect = node.getBoundingClientRect();

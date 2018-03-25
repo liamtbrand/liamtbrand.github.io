@@ -20,3 +20,18 @@
    filter: none;
    transition-duration: 0.5s;
 }
+
+.music-caption {
+   font-family: 'Fredericka the Great';
+   font-weight: normal;
+   font-size: 48px;
+}
+
+.content > .title,
+.content > * > .title {
+   font-family: 'Special Elite';
+
+   text-align: center;
+   width: 100%;
+   font-size: 32px;
+}

@@ -3,3 +3,6 @@
 \.DS_Store
 
 App/npm-debug\.log
+_site
+.sass-cache
+.jekyll-metadata
