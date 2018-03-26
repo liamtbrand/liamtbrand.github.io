@@ -1,6 +1,6 @@
 lastfm = {
    api:{
-      root:"http://ws.audioscrobbler.com/2.0/",
+      root:"https://ws.audioscrobbler.com/2.0/",
       key:"8ab8b0ca70572c76d43c85fb498e71e9"
    },
    user:"liamtbrand"
