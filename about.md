@@ -6,7 +6,9 @@ permalink: about/
 I study Software Engineering at the University of Auckland.
 
 Here is the site index of some of my peers.
+* [Zain Azimullah](http://zainazimullah.com)
 * [Maddie Beagly](https://maddiebeagley.github.io/)
+* [Sam Broadhead](http://sambroadhead.me)
 * [Nathan Cairns](http://nathan-cairns.com/)
 * [Darcy Cox](http://darcycox.me)
 * [Buster Darragh-Major](http://buster.nz/)
