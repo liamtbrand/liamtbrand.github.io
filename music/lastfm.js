@@ -32,6 +32,7 @@ function populateMusicBoard() {
             } else {
                style = "background-image: url('"+imgurl+"');";
             }
+            style = style + "margin: " + Math.floor(Math.random() * 20) + "px;";
             node.style = style;
 
             $(document).mousemove(function(e) {

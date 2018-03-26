@@ -1,8 +1,9 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: about/
 ---
+<img style="float:right;" width="200" height="200" src="/profile.jpg">
 I study Software Engineering at the University of Auckland.
 
 My last summer: Interning at [SAP](https://sap.com).
