@@ -5,6 +5,8 @@ permalink: about/
 ---
 I study Software Engineering at the University of Auckland.
 
+My last summer: Interning at [SAP](https://sap.com).
+
 Here is the site index of some of my peers.
 * [Zain Azimullah](http://zainazimullah.com)
 * [Maddie Beagly](https://maddiebeagley.github.io/)
