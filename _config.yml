@@ -27,7 +27,7 @@ github_username:  liamtbrand
 linkedin_username: liamtbrand
 
 disqus:
-  shortname: liamtbrand-com
+    shortname: liamtbrand-com
 
 # Build settings
 markdown: kramdown
