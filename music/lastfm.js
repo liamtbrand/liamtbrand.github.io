@@ -6,6 +6,37 @@ lastfm = {
    user:"liamtbrand"
 }
 
+function updateCurrentlyListening() {
+    var url = lastfm.api.root+"?method=user.getrecenttracks&user="+lastfm.user+"&api_key="+lastfm.api.key+"&format=json";
+    $.getJSON( url, function( data ) {
+        //console.log(data);
+        var last_track = data.recenttracks.track[0];
+        console.log(last_track);
+        var text = "";
+        if( last_track['@attr'] && last_track['@attr'].nowplaying ) {
+            text = "I'm currently listening to:";
+        } else {
+            text = "I last listened to:";
+        }
+        document.getElementById("listening-text").innerHTML = text;
+
+        // add album art...
+        var albumart = document.getElementById("listening-albumart");
+        // pick largest image (assume ordered).
+        var imgurl = last_track.image[last_track.image.length-1]["#text"];
+        var style = "";
+        if( imgurl.length ) {
+           style += "background-image: url('"+imgurl+"');";
+        }
+        albumart.style = style;
+
+        // add album info...
+        var albumdetails = document.getElementById("listening-details");
+
+        albumdetails.innerHTML = last_track.album['#text']+"<br />"+last_track.artist['#text'];
+    });
+}
+
 function populateMusicBoard() {
    var url = lastfm.api.root+"?method=user.getweeklyalbumchart&user="+lastfm.user+"&api_key="+lastfm.api.key+"&format=json";
    $.getJSON(url,function(data) {
@@ -25,11 +56,9 @@ function populateMusicBoard() {
             document.getElementById("content").appendChild(node);
             node.className = "album-cover";
             node.innerHTML = "";
-            var imgurl = album.album.image[2]["#text"];
+            var imgurl = album.album.image[album.album.image.length-1]["#text"];
             var style = "";
-            if(!imgurl.length) {
-               style = "background-color: #fff;";
-            } else {
+            if(imgurl.length) {
                style = "background-image: url('"+imgurl+"');";
             }
             style = style + "margin: " + Math.floor(Math.random() * 20) + "px;";

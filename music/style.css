@@ -1,19 +1,50 @@
+.info-box {
+    padding: 20px;
+    float: left;
+}
+
+
+.current-album {
+    width: 240px;
+    border: 1px solid #eee;
+}
+
+.album-details {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    width: 220px;
+    height: auto;
+    background-color: #eee;
+}
+
 .album-display {
    line-height: 0;
    font-size: 0;
    width: 100%;
 }
 
-.album-cover {
-   display: inline-block;
-   width: 120px;
-   height: 120px;
+.album-cover, .current-album-cover {
    background-size: cover;
-   filter: grayscale(100%);
    margin: 0px;
    padding: 0px;
    line-height: 0;
    font-size: 0;
+   background-color: #fff;
+}
+
+.album-cover {
+    display: inline-block;
+    filter: grayscale(100%);
+    width: 120px;
+    height: 120px;
+}
+
+.current-album-cover {
+    display:block;
+    filter: none;
+    width: 240px;
+    height: 240px;
 }
 
 .album-cover:hover {
@@ -27,11 +58,12 @@
    font-size: 48px;
 }
 
+.info-box > .title,
 .content > .title,
 .content > * > .title {
    font-family: 'Special Elite';
 
    text-align: center;
    width: 100%;
-   font-size: 32px;
+   font-size: 20px;
 }
