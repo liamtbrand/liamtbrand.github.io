@@ -26,6 +26,6 @@ We define the following Relation Schema:
 
 DRINK = {name,cost} with key {name}.
 
-Select all drinks with cost ≤ 5.
+Find the names of all drinks with cost ≤ 5.
 
-Q =  σ<sub>x<sub>cost≤5</sub></sub>( DRINK(x<sub>name</sub>,x<sub>cost</sub>) )
+Q = π<sub>name</sub>( σ<sub>cost≤5</sub>( DRINK ) )
