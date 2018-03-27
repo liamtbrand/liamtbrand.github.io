@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Domain Relational Calculus"
-date: 2018-03-27 00:00:20 +1300
+title: "Relational Algebra: An Introduction (DRAFT)"
+date: 2018-03-27 00:20:00 +1300
 tags: databases
 ---
 # Operator table
@@ -14,3 +14,18 @@ tags: databases
 | Natural Join | ⋈ | Joins two relations. (Join tables) | φ ⋈ ψ |
 | Set Difference | - | Removes tuples from the set. (Eliminate rows) | φ - ψ |
 | Union | ∪ | Takes the union of the relations. | φ ∪ ψ |
+| Division | ÷ | | φ ÷ ψ |
+
+# Definitions
+
+q( σ<sub>A=B</sub>( Q ) )( db ) = σ<sub>A=B</sub>( q( Q )( db ) )
+
+# Example
+
+We define the following Relation Schema:
+
+DRINK = {name,cost} with key {name}.
+
+Select all drinks with cost ≤ 5.
+
+Q =  σ<sub>x<sub>cost≤5</sub></sub>( DRINK(x<sub>name</sub>,x<sub>cost</sub>) )

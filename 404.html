@@ -20,5 +20,15 @@ layout: default
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p id="404-comment"></p>
+  <p>If there was something important here, please let me know about it!<br/>Don't hesitate to <a class="u-email" href="mailto:{{ site.email }}?subject=Contact: 404 Issue">contact me</a>.</p>
+  <script>
+      comments = [
+          "Are you sure you typed it right?",
+          "Hmmmmmmmmm.... No idea."
+      ];
+      (function(){
+          document.getElementById("404-comment").innerHTML=comments[ Math.floor( Math.random() * comments.length ) ];
+      })();
+  </script>
 </div>
