@@ -58,6 +58,10 @@
    font-size: 48px;
 }
 
+.content {
+    min-height: 510px;
+}
+
 .info-box > .title,
 .content > .title,
 .content > * > .title {

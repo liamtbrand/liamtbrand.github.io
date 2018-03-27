@@ -33,7 +33,7 @@ function updateCurrentlyListening() {
         // add album info...
         var albumdetails = document.getElementById("listening-details");
 
-        albumdetails.innerHTML = last_track.album['#text']+"<br />"+last_track.artist['#text'];
+        albumdetails.innerHTML = last_track.name+"<br />"+last_track.album['#text']+"<br />"+last_track.artist['#text'];
     });
 }
 
