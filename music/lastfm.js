@@ -6,12 +6,20 @@ lastfm = {
    user:"liamtbrand"
 }
 
+function linkify(target,url) {
+    var linkable = document.createElement('a');
+    linkable.href = url;
+    linkable.target = "_blank";
+    linkable.style = "display:block;width:100%;height:100%;";
+    target.appendChild( linkable );
+}
+
 function updateCurrentlyListening() {
     var url = lastfm.api.root+"?method=user.getrecenttracks&user="+lastfm.user+"&api_key="+lastfm.api.key+"&format=json";
     $.getJSON( url, function( data ) {
         //console.log(data);
         var last_track = data.recenttracks.track[0];
-        console.log(last_track);
+        //console.log(last_track);
         var text = "";
         if( last_track['@attr'] && last_track['@attr'].nowplaying ) {
             text = "I'm currently listening to:";
@@ -29,6 +37,8 @@ function updateCurrentlyListening() {
            style += "background-image: url('"+imgurl+"');";
         }
         albumart.style = style;
+
+        linkify( albumart, last_track.url );
 
         // add album info...
         var albumdetails = document.getElementById("listening-details");
@@ -50,19 +60,21 @@ function populateMusicBoard() {
                   "&user="+lastfm.user+
                   "&api_key="+lastfm.api.key+
                   "&format=json";
-         $.getJSON(url,function(album) {
-            //console.log(album);
+         $.getJSON(url,function(albumdata) {
+            console.log(albumdata);
             var node = document.createElement('div');
             document.getElementById("content").appendChild(node);
             node.className = "album-cover";
             node.innerHTML = "";
-            var imgurl = album.album.image[album.album.image.length-1]["#text"];
+            var imgurl = albumdata.album.image[albumdata.album.image.length-1]["#text"];
             var style = "";
             if(imgurl.length) {
                style = "background-image: url('"+imgurl+"');";
             }
             style = style + "margin: " + Math.floor(Math.random() * 20) + "px;";
             node.style = style;
+
+            linkify( node,albumdata.album.url );
 
             $(document).mousemove(function(e) {
                //var distance = Math.floor(Math.sqrt(Math.pow(e.pageX - (node.offsetLeft+(node.width/2)), 2) + Math.pow(e.pageY - (node.offsetTop+(node.height/2)), 2)));
