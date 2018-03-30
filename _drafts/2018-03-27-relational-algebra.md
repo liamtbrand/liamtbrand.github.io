@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Relational Algebra: An Introduction (DRAFT)"
+title: "Relational Algebra: An Introduction"
 date: 2018-03-27 00:20:00 +1300
-tags: databases
+categories: blog
+tags: databases draft
 ---
 # Operator table
 
