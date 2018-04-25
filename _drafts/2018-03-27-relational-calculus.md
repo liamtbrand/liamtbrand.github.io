@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Relational Calculus: An Introduction"
-date: 2018-03-27 15:44:00 +1300
 categories: blog
 tags: databases draft
 ---
+Previous chapter: [Relational Algebra: An Introduction](/blog/2018/03/27/relational-algebra.html).
 
 Relational Calculus uses First Order Logic to define operations.
 
