@@ -9,6 +9,7 @@ I study Software Engineering at the University of Auckland.
 My last summer: Interning at [SAP](https://sap.com).
 
 Here is the site index of some of my peers.
+* [Ravid Aharon](https://ravid12.github.io/Portfolio/)
 * [Zain Azimullah](http://zainazimullah.com)
 * [Maddie Beagly](https://maddiebeagley.github.io/)
 * [Sam Broadhead](http://sambroadhead.me)
