@@ -19,7 +19,7 @@ permalink: music/
     <div class="album-display" id="listening-content"></div>
   </div>
   <br />
-  <div class="title">This week, I listend to ...</div>
+  <div class="title">This week, I listened to ...</div>
   <div class="album-display" id="content"></div>
   </center>
 </div>
