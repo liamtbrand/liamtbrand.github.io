@@ -9,7 +9,7 @@ permalink: adventure/
    <!--<div class="title" style="margin-top:250px;">I'll go somewhere I promise.</div>-->
 
    <div class="captioned-image">
-      <img src="/images/IMG_4099.JPG">
+      <img src="/images/IMG_4099.jpg">
       <div class="image-caption">
          <br><br><br><br><br><br><br>
          <div class="caption white-text" style="margin:0;">Wellington, New Zealand</div>
@@ -21,7 +21,7 @@ permalink: adventure/
    </div>
 
    <div class="captioned-image">
-      <img src="/images/IMG_3009.JPG">
+      <img src="/images/IMG_3009.jpg">
       <div class="image-caption">
          <br><br><br><br><br><br><br><br><br><br>
          <div class="caption white-text" style="margin:0;">Okura, New Zealand</div>
