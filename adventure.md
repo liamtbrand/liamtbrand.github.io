@@ -9,6 +9,30 @@ permalink: adventure/
    <!--<div class="title" style="margin-top:250px;">I'll go somewhere I promise.</div>-->
 
    <div class="captioned-image">
+      <img src="/images/IMG_4099.JPG">
+      <div class="image-caption">
+         <br><br><br><br><br><br><br>
+         <div class="caption white-text" style="margin:0;">Wellington, New Zealand</div>
+         <div class="title white-text">July 2018</div>
+         <div class="container white-text">
+            <center></center>
+         </div>
+      </div>
+   </div>
+
+   <div class="captioned-image">
+      <img src="/images/IMG_3009.JPG">
+      <div class="image-caption">
+         <br><br><br><br><br><br><br><br><br><br>
+         <div class="caption white-text" style="margin:0;">Okura, New Zealand</div>
+         <div class="title white-text">March 2018</div>
+         <div class="container white-text">
+            <center></center>
+         </div>
+      </div>
+   </div>
+
+   <div class="captioned-image">
       <img src="/images/IMG_2779.JPG">
       <div class="image-caption">
          <br><br><br><br><br><br><br><br><br><br>
