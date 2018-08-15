@@ -6,9 +6,10 @@ permalink: projects/
 
 # 2018
 
-| Project Name | Project Info |
-| ------------ | ------------ |
-| [PapIris](https://github.com/liamtbrand/papiris) | |
+| Date | Project Name | Project Info |
+| ---- | ------------ | ------------ |
+| | [PapIris](https://github.com/liamtbrand/papiris) | |
+| | | |
 
 ---
 # 2017
@@ -26,6 +27,7 @@ however Snakes is currently in development and should be released soon.
 | [Aquarium](https://aquarium-app.tech/) | [Winning](https://twitter.com/amirmohtasebi/status/901714801306435584) prototype at [Summer of Tech](https://summeroftech.co.nz)'s Hackfest. |
 | [Snake](https://github.com/liamtbrand/snake) | Snake Engine and Game. In progress. |
 | [Notes App](https://liamtbrand.github.io/NotesApp/) | A simple note taking app. |
+| Tatai | |
 
 ---
 # 2016

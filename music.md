@@ -21,6 +21,7 @@ permalink: music/
   <br />
   <div class="title">This week, I listened to ...</div>
   <div class="album-display" id="content"></div>
+  <!--<div style="color:#999;">[This project uses the <a href="https://www.last.fm">last.fm</a> api.]</div>-->
   </center>
 </div>
 
