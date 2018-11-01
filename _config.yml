@@ -25,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://liamtbrand.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  liamtbrand
 linkedin_username: liamtbrand
-twitter_username: liamtbrand
+#twitter_username: liamtbrand
 
 disqus:
     shortname: "liamtbrand-com"
