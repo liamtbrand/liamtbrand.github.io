@@ -4,22 +4,21 @@ title: Projects
 permalink: projects/
 ---
 
+# Current
+
+| Project Name | Project Info |
+| ------------ | ------------ |
+| [FindMyStall](https://findmystall.com) | A stall finding app. |
+
 # 2018
 
-| Date | Project Name | Project Info |
-| ---- | ------------ | ------------ |
-| | [PapIris](https://github.com/liamtbrand/papiris) | |
-| | | |
+| Project Name | Project Info |
+| ------------ | ------------ |
+| [PapIris](https://github.com/liamtbrand/papiris) | Search scanned pdfs with Spotlight. |
+| [Tātai 8](https://tatai8.liamtbrand.com/) | Computes schedules for assigning tasks to processors. |
+| [Little Coders](https://littlecoders.liamtbrand.com/) | A game that looks at diversity in software engineering. |
 
----
 # 2017
-
-## [Script Wars](http://script-wars.com/)
-My friend [James Brown](https://github.com/Brownshome)
-and I have been working on this for the past few months.
-With Script Wars you can write your own bot scripts, and have them do battle with other people's.
-Currently the Tanks game is the main featuring game,
-however Snakes is currently in development and should be released soon.
 
 | Project Name | Project Info |
 | ------------ | ----------- |
@@ -28,17 +27,17 @@ however Snakes is currently in development and should be released soon.
 | [Snake](https://github.com/liamtbrand/snake) | Snake Engine and Game. In progress. |
 | [Notes App](https://liamtbrand.github.io/NotesApp/) | A simple note taking app. |
 | Tatai | |
+| [Music Board](/music) | Uses the last.fm API to show what I've been listening to. |
 
----
 # 2016
 
 | Project Name | Project Info |
 | ------------ | ------------ |
 | [EasyDocs](https://github.com/liamtbrand/EasyDocs) | Simple markdown style processor. |
 
----
-# Old projects that probably don't work anymore...
+# Older
 
-## Magic Worlds
-This project aims to create a multiplayer game which you can do quests, and collect items of value. You can trade items with other players and battle monsters to level up.
-Download: [MagicWorlds-Launcher.jar](https://liamtbrand.github.io/MagicWorlds/MagicWorlds-Launcher.jar)
+| Project Name | Project Info |
+| ------------ | ------------ |
+| Asteroid Attack | Single player space invaders style asteroid dodging game. |
+| Magic Worlds | Multiplayer RPG style game. (Incomplete) |
