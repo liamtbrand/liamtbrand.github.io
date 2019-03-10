@@ -14,7 +14,7 @@ permalink: projects/
 
 | Project Name | Project Info |
 | ------------ | ------------ |
-| [PapIris](https://github.com/liamtbrand/papiris) | Search scanned pdfs with Spotlight. |
+| [PapIris](https://papiris.liamtbrand.com/) | Search scanned pdfs with Spotlight. |
 | [Tātai 8](https://tatai8.liamtbrand.com/) | Computes schedules for assigning tasks to processors. |
 | [Little Coders](https://littlecoders.liamtbrand.com/) | A game that looks at diversity in software engineering. |
 
