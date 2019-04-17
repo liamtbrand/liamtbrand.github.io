@@ -9,7 +9,7 @@ permalink: adventure/
    <!--<div class="title" style="margin-top:250px;">I'll go somewhere I promise.</div>-->
 
    <div class="captioned-image">
-      <img src="/images/IMG_5665.jpg">
+      <img src="/images/IMG_5665.JPG">
       <div class="image-caption">
          <br><br><br><br><br><br><br>
          <div class="caption white-text" style="margin:0;">Heidelberg, Germany</div>
