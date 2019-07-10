@@ -21,3 +21,25 @@ table > tbody > .book > .title > .highlighted {
 table > tbody > .book > .author {
    text-align: left;
 }
+
+table {
+  border:none;
+  -webkit-border-horizontal-spacing:0px;
+  -webkit-border-vertical-spacing:0px;
+}
+
+.section-title {
+  text-align:center;
+}
+
+table td {
+  border:none;
+}
+
+.author {
+  border-left: 2px solid #e8e8e8;
+}
+
+table tr:nth-child(even) {
+  background-color:inherit;
+}
