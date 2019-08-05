@@ -32,7 +32,7 @@ var sections = [
   {
     title:"June 2019",
     entries:[
-      {title:"<div class='highlighted'>&nbsp;The Symposium&nbsp;</div>",author:"Plato"}
+      {title:"The Symposium",author:"Plato",highlighted:true}
     ]
   },
   {
@@ -64,9 +64,19 @@ buildSection = function(section) {
    html += '<div class="section-title">'+section.title+'</div><table><tbody>';
 
    for(var i = 0; i < section.entries.length; i++) {
+
+      var book = section.entries[i];
+
       html += '<tr class="book"><td class="title bold">';
-      html += section.entries[i].title + '</td><td class="author">';
-      html += section.entries[i].author + '</td></tr>';
+      if('highlighted' in book) {
+        html+= "<div class='highlighted'>&nbsp;";
+      }
+      html += book.title
+      if('highlighted' in book) {
+        html += "&nbsp;</div>";
+      }
+      html += '</td><td class="author">';
+      html += book.author + '</td></tr>';
    }
 
    html += '</tbody></table>';
