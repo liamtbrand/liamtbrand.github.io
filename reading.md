@@ -24,6 +24,12 @@ var quotes = {
 
 var sections = [
   {
+    title:"August 2019",
+    entries:[
+      {title:"Sapiens",author:"Yuval Noah Harari"}
+    ]
+  },
+  {
     title:"July 2019",
     entries:[
       {title:"Digital Fortress",author:"Dan Brown"}
