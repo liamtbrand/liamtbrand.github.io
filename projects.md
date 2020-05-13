@@ -8,6 +8,12 @@ permalink: projects/
 
 | Project Name | Project Info |
 | ------------ | ------------ |
+| [Flatter](https://flatter.app) | Find flats and accomodation. |
+
+# 2019
+
+| Project Name | Project Info |
+| ------------ | ------------ |
 | [FindMyStall](https://findmystall.com) | A stall finding app. |
 
 # 2018
