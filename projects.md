@@ -8,6 +8,7 @@ permalink: projects/
 
 | Project Name | Project Info |
 | ------------ | ------------ |
+| [Visitor Log](https://visitorlog.co.nz) | Contact tracing made easy. |
 | [Flatter](https://flatter.app) | Find flats and accomodation. |
 
 # 2019
