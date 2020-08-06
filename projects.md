@@ -8,8 +8,8 @@ permalink: projects/
 
 | Project Name | Project Info |
 | ------------ | ------------ |
+| [Flatter](https://flatter.nz/) | Flatting for Kiwis. Rooms for Rent. Flatmates Wanted. (startup) |
 | [Visitor Log](https://visitorlog.co.nz) | Contact tracing made easy. |
-| [Flatter](https://flatter.app) | Find flats and accomodation. |
 
 # 2019
 
