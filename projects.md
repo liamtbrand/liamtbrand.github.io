@@ -9,7 +9,7 @@ permalink: projects/
 | Project Name | Project Info |
 | ------------ | ------------ |
 | [Overlake](https://overlake.co.nz/) | Startup operating company |
-| [Flatter](https://flatter.nz/) | Flatting for Kiwis. Rooms for Rent. Flatmates Wanted. (startup) |
+| [Flatter](https://flatter.nz/) | Startup focused on providing flatting services for new zealanders. Enables searching for flats using a map feature and includes iOS and Android apps for ease of use with a mobile first approach to flat finding. |
 | [Visitor Log](https://visitorlog.co.nz) | Contact tracing made easy. |
 
 # 2019
