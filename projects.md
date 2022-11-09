@@ -6,6 +6,10 @@ permalink: projects/
 
 # Current
 
+Not working on anything at the moment. Sad, I know. :(
+
+# 2020
+
 | Project Name | Project Info |
 | ------------ | ------------ |
 | [Overlake](https://overlake.co.nz/) | Startup operating company |

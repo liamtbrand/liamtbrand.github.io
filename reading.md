@@ -5,7 +5,7 @@ permalink: reading/
 ---
 <link rel="stylesheet" type="text/css" href="/literature/literature.css">
 
-The following is a list of books I have read. As you can see I haven't been doing enough reading. Therefore, I have set myself a new goal of reading at least 10 pages every day.
+The following is a list of books I have read. As you can see I haven't been doing enough reading. Therefore, I have set myself a new goal of reading at least 1 page every day.
 <div id='sections'></div>
 
 <script>
@@ -23,6 +23,12 @@ var quotes = {
 };
 
 var sections = [
+  {
+    title:"October 2022",
+    entries:[
+      {title:"What's the economy for, anyway?", author:"John de Graaf", highlighted:true}
+    ]
+  },
   {
     title:"August 2019",
     entries:[
