@@ -2,7 +2,7 @@
 layout: post
 title:  "How to edit the hosts file on MacOS Monterey"
 date:   2022-02-10 02:01:53 -0800
-categories: 
+categories: blog
 ---
 
 Note: Before making changes to your system I strongly encourage you to make a backup using Time Machine.
