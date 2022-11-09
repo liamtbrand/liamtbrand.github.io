@@ -44,7 +44,7 @@ var sections = [
   {
     title:"June 2019",
     entries:[
-      {title:"The Symposium",author:"Plato",highlighted:true}
+      {title:"The Symposium",author:"Plato"}
     ]
   },
   {
