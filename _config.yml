@@ -50,3 +50,9 @@ plugins:
 exclude:
   - nodejs/
   - _posts/2018-03-24-welcome-to-jekyll.markdown
+  - reading.md
+  - about.md
+  - adventure.md
+  - blog.md
+  - projects.md
+  - sites.md

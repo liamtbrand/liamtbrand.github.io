@@ -2,5 +2,5 @@
 layout: home
 ---
 <script>
-window.location.href = "/about/";
+window.location.href = "/music/";
 </script>
