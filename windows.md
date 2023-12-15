@@ -9,6 +9,4 @@ permalink: /windows
     }
 </style>
 
-<html>
-    <img src="https://i1.sndcdn.com/artworks-000546058341-wnu9y1-t500x500.jpg" style="right:50px; bottom:50px; position:absolute;"/>
-</html>
+<img src="https://i1.sndcdn.com/artworks-000546058341-wnu9y1-t500x500.jpg" style="width:50px; height:50px; right:50px; bottom:50px; position:absolute;"/>
