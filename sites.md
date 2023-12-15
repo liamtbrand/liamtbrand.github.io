@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: fullpage
 date: 2018-08-15 16:45:00 +1300
 permalink: /sites/
 ---
