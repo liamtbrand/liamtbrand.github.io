@@ -4,7 +4,7 @@ date: 2023-12-14
 permalink: /windows
 ---
 <style>
-    html {
+    * {
         background-color: rgb(46,111,115);
     }
 </style>
