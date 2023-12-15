@@ -3,7 +3,15 @@ layout: post
 date: 2018-08-15 16:45:00 +1300
 permalink: /sites/
 ---
+Here is a list of fun sites:
+
+- [Internet is Fun!](https://projects.kwon.nyc/internet-is-fun/)
+- [Syllabus for taking an internet walk](https://syllabusproject.org/syllabus-for-taking-an-internet-walk/)
+- [Visual search engine - River](https://river.maxbittker.com/)
+- [Geotastic - Geoguessr alternative! It works really well](https://geotastic.net/home)
+
 Here is the site index of some of my friends.
+* [Bubsler708](https://bubsler807.github.io/)
 * [Ravid Aharon](https://ravid12.github.io/Portfolio/)
 * [Zain Azimullah](http://zain.net.nz/)
 * [Maddie Beagly](https://maddiebeagley.github.io/)
