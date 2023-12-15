@@ -9,4 +9,4 @@ permalink: /windows
     }
 </style>
 
-<a href="https://en.wikipedia.org/wiki/The_Game_%2528mind_game%2529#%252Fmedia%252FFile%253AI_lost_the_game.jpg"><img src="https://i1.sndcdn.com/artworks-000546058341-wnu9y1-t500x500.jpg" style="width:100px; height:100px; right:50px; bottom:50px; position:absolute;"/></a>
+<a href="https://en.wikipedia.org/wiki/The_Game_(mind_game)"><img src="https://i1.sndcdn.com/artworks-000546058341-wnu9y1-t500x500.jpg" style="width:100px; height:100px; right:50px; bottom:50px; position:absolute;"/></a>
