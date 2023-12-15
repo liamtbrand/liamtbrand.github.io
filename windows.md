@@ -5,7 +5,7 @@ permalink: /windows
 ---
 <style>
     * {
-        background-color: rgb(46,111,115);
+        background-color: rgb(0,128,129);
     }
 </style>
 
