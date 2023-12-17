@@ -3,6 +3,10 @@ layout: fullpage
 date: 2018-08-15 16:45:00 +1300
 permalink: /sites/
 ---
+Here is a list of articles:
+
+- [Why public WiFi is a lot safer than you think](https://www.eff.org/deeplinks/2020/01/why-public-wi-fi-lot-safer-you-think)
+
 Here is a list of fun sites:
 
 - [Internet is Fun!](https://projects.kwon.nyc/internet-is-fun/)
@@ -10,7 +14,7 @@ Here is a list of fun sites:
 - [Visual search engine - River](https://river.maxbittker.com/)
 - [Geotastic - Geoguessr alternative! It works really well](https://geotastic.net/home)
 
-Here is the site index of some of my friends.
+Here are some other interesting personal web sites.
 * [Bubsler708](https://bubsler807.github.io/)
 * [Ravid Aharon](https://ravid12.github.io/Portfolio/)
 * [Zain Azimullah](http://zain.net.nz/)
